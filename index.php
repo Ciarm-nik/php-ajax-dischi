@@ -1,6 +1,6 @@
 <?php
 
-include "../php-ajax-dischi/database.php";
+include "./db/database.php";
 
 // var_dump($dischi);
 
@@ -16,6 +16,7 @@ include "../php-ajax-dischi/database.php";
     <title>PHP-AJAX-DISCHI</title>
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,6 @@ include "../php-ajax-dischi/database.php";
     </main>
 
     <footer></footer>
-
 
     <script src="app.js"></script>
 </body>

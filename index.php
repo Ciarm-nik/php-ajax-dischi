@@ -1,6 +1,7 @@
 <?php
 
-include "./db/database.php";
+  include "./database.php";
+
 
 // var_dump($dischi);
 
@@ -17,6 +18,7 @@ include "./db/database.php";
     <link rel="stylesheet" href="dist/app.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    
 </head>
 
 <body>
@@ -33,9 +35,9 @@ include "./db/database.php";
                                 <img src="<?php echo $disco['poster'] ?>" alt="">
                             </div>
                             <h4><?php echo $disco['title'] ?></h4>
-                                <h5><?php echo $disco['author'] ?></h5>
-                                    <!-- <h2><?php echo $disco['genre'] ?></h2> -->
-                                        <p><?php echo $disco['year'] ?></p>
+                            <h5><?php echo $disco['author'] ?></h5>
+                            <!-- <h2><?php echo $disco['genre'] ?></h2> -->
+                            <p><?php echo $disco['year'] ?></p>
                         </div>
                     </div>
                 <?php
@@ -48,7 +50,6 @@ include "./db/database.php";
 
     <footer></footer>
 
-    <script src="app.js"></script>
 </body>
 
 </html>

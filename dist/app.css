@@ -19,7 +19,7 @@
   float: left;
 }
 
-.dischi-box .card .disco-content {
+.disco-content {
   width: 100%;
   height: 100%;
   display: flex;
@@ -29,15 +29,15 @@
   padding: 0 10px;
 }
 
-.dischi-box .card .disco-content .poster-img {
+.poster-img {
   width: 150px;
   height: 150px;
   margin: 15px 0;
 }
 
-.dischi-box .card .disco-content .poster-img img {
+.poster-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }

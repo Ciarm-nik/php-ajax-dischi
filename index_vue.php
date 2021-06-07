@@ -1,6 +1,6 @@
 <?php
 
-// include "./db/database.php";
+// include "./database.php";
 
 // header('Content-Type: application/json');
 
@@ -29,7 +29,18 @@
 <body>
 
     <div id="app">
-        <header></header>
+
+    <!-- Inserisco una select per i filtri -->
+        <!-- <header>
+        <div class="">
+                <select id="genres" name="val">
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                    <option value="metal">Metal</option>
+                    <option value="jazz">jazz</option>
+                </select>
+            </div>
+        </header> -->
 
         <main>
             <section class="container">
@@ -47,8 +58,12 @@
         </main>
         <footer></footer>
     </div>
-    <script src="app.js"></script>
+    <script src="app.js?rand=<?php echo rand(1, 100); ?>"></script>
 
 </body>
 
 </html>
+
+/*
+
+*

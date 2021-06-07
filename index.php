@@ -1,10 +1,7 @@
+
 <?php
 
-  include "./database.php";
-
-
-// var_dump($dischi);
-
+include "./database.php";
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +20,9 @@
 
 <body>
 
-    <header></header>
+    <header>
+    
+    </header>
 
     <main>
         <section class="container">
@@ -36,7 +35,7 @@
                             </div>
                             <h4><?php echo $disco['title'] ?></h4>
                             <h5><?php echo $disco['author'] ?></h5>
-                            <!-- <h2><?php echo $disco['genre'] ?></h2> -->
+                            <!-- <h2><?php /* echo $disco['genre'] */?></h2> -->
                             <p><?php echo $disco['year'] ?></p>
                         </div>
                     </div>
